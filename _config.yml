@@ -19,7 +19,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Alto LLC develops, migrates, and maintains web applications.
   I specialize in VueJS, static sites, and Drupal multilingual, Commerce, migrations, and training. 
   I am available to work remotely or embedded (in-house).
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/super-duper-pancake" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: novelladev
 github_username: novellac

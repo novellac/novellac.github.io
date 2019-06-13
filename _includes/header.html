@@ -4,8 +4,8 @@
       <div class="container">
         <nav class="nav">
           <div class="nav-left">
-            <a class="nav-item is-brand" href="/">
-              <img src="../img/altoLogo.png" alt="Alto logo">
+            <a class="nav-item is-brand" href="{{ site.baseurl }}">
+              <img src="{{ site.baseurl }}/img/altoLogo.png" alt="Alto logo">
             </a>
           </div>
 
@@ -33,7 +33,7 @@
           <!-- This "nav-menu" is hidden on mobile -->
           <!-- Add the modifier "is-active" to display it on mobile -->
           <div class="nav-right nav-menu">
-            <a class="nav-item" href="/">
+            <a class="nav-item" href="{{ site.baseurl }}">
               Home
             </a>
             {% for my_page in site.pages %}
