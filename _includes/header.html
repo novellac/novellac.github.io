@@ -1,0 +1,52 @@
+<header class="site-header" role="banner">
+  <div class="hero">
+    <div class="hero-head">
+      <div class="container">
+        <nav class="nav">
+          <div class="nav-left">
+            <a class="nav-item is-brand" href="/">
+              <img src="../img/altoLogo.png" alt="Alto logo">
+            </a>
+          </div>
+
+          <div class="nav-center">
+            <a class="nav-item" href="http://github.com/{{ site.github_username }}">
+              <span class="icon">
+                <i class="fa fa-github"></i>
+              </span>
+            </a>
+            <a class="nav-item" href="http://twitter.com/{{ site.twitter_username }}">
+              <span class="icon">
+                <i class="fa fa-twitter"></i>
+              </span>
+            </a>
+          </div>
+
+          <!-- This "nav-toggle" hamburger menu is only visible on mobile -->
+          <!-- You need JavaScript to toggle the "is-active" class on "nav-menu" -->
+          <span class="nav-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+
+          <!-- This "nav-menu" is hidden on mobile -->
+          <!-- Add the modifier "is-active" to display it on mobile -->
+          <div class="nav-right nav-menu">
+            <a class="nav-item" href="/">
+              Home
+            </a>
+            {% for my_page in site.pages %}
+            {% if my_page.title %}
+            <a class="nav-item" href="{{ my_page.url | relative_url }}">
+              {{ my_page.title | escape }}
+            </a>
+            {% endif %}
+            {% endfor %}
+          </div>
+
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
