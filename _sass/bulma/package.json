@@ -40,7 +40,7 @@
   "author": {
     "email": "bbxdesign@gmail.com",
     "name": "Jeremy Thomas",
-    "url": "http://jgthms.com"
+    "url": "https://jgthms.com"
   },
   "bugs": {
     "url": "https://github.com/jgthms/bulma/issues"
@@ -66,7 +66,7 @@
     "sass"
   ],
   "gitHead": "b2440df07b69b59c95de25479006f509555caefb",
-  "homepage": "http://bulma.io",
+  "homepage": "https://bulma.io",
   "keywords": [
     "css",
     "flexbox",
@@ -76,12 +76,10 @@
   ],
   "license": "MIT",
   "main": "bulma.sass",
-  "maintainers": [
-    {
-      "name": "jgthms",
-      "email": "bbxdesign@gmail.com"
-    }
-  ],
+  "maintainers": [{
+    "name": "jgthms",
+    "email": "bbxdesign@gmail.com"
+  }],
   "name": "bulma",
   "optionalDependencies": {},
   "readme": "ERROR: No README data found!",
