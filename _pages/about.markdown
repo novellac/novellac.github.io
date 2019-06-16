@@ -7,7 +7,7 @@ permalink: "/about/"
 categories: main personal
 ---
 
-Hi, I'm Novella. As a freelance Drupalista, I specialize in small projects and maintenance (SLA) client care. I am available for work remotely, in the greater Detroit area, or as a temporary embedded contractor.
+Hi, I'm Novella. As a freelance frontend dev, I specialize in small projects and maintenance (SLA) client care. I am available for work remotely, in the greater Detroit area, or as a temporary embedded contractor.
 
 For larger projects, I work with [Kafei Interactive Inc][kafei].
 
